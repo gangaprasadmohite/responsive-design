@@ -1,0 +1,341 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*General CSS*/
+
+*,*:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background-color: #222F3D;
+}
+img {
+	width: 5.75rem;
+}
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.wrapper-2 {
+	max-width: 700px;
+	margin: 0 auto;
+}
+.wrapper-3 {
+	max-width: 600px;
+	margin: 0 auto;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+.main-navigation {
+	word-spacing: 1.875rem;
+	color: white;
+	padding-top: 0.625rem;
+}
+.main-navigation a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.hero {
+
+	background: #2D4C57;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #4C9D7D, #2D4C57);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #4C9D7D, #2D4C57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.heading {
+	text-transform: uppercase;
+	font-size: 4rem;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	line-height: 1.5;
+	word-spacing: 1.25rem;
+	padding-top: 5rem;
+	padding-bottom: 0px;
+}
+.sub-heading {
+	text-align: center;
+	color: white;
+	font-size: 1.75rem;
+	padding-top: 1.25rem;
+	padding-bottom: 5rem;
+}
+.three-cols {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.portfolio img {
+	width: 100%;
+}
+.col {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+.portfolio h2 {
+	color: #2C3E50;
+}
+.container {
+	display: flex;
+	margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.item {
+    margin-bottom: 1.25rem;
+    flex-basis: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.col-1 {
+	width: 30%;
+	margin: 1.5%
+}	
+
+.about {
+	background: #2D4C57; 
+	background: -webkit-linear-gradient(to top, #4C9D7D, #2D4C57);
+	background: linear-gradient(to top, #4C9D7D, #2D4C57); 	
+}
+.two-para {
+	display: flex;
+}
+.two-para p {
+	color: #DFF5E1;
+	line-height: 1.6;
+	margin-right: 5%;
+	font-size: 1.5rem;
+	padding-bottom: 3rem;
+}
+.about h3 {
+	font-size: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #DFF5E1;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+}
+.btn {
+	text-align: center;
+}
+button {
+	background-color: white;
+	border: none;
+	font-size: 1rem;
+	padding: 0.9rem 2.5rem;
+	color: #000;
+	font-weight: 600;
+	border: 2px solid black;
+	border-radius: 0.35rem;
+	margin-bottom: 3rem;
+}
+.contact h3 {
+	color: black;
+	font-size: 3rem;
+	font-weight: 600;
+}
+.form-control {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #636466;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+}
+label {
+	color: #636466;
+	font-size: 1.25rem;
+}
+.wrapper-3 button {
+	background-color: #326D5E;
+	color: white;
+	border: none;
+}
+ 
+.geo {
+	background-color: #BDC7D2;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+} 
+iframe {
+	width: 100%;
+}
+.table .heading {
+	color: black;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+table {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+}
+.sites {
+	background-color: #1E2639;
+	color: #215774;
+	margin-left: 05rem;
+}
+.google {
+	background-color: #323C50;
+	color: #010102;
+}
+.twitter {
+	background-color: #2B3346;
+	color: #010102;
+}
+.amazon {
+	background-color: #323C50;
+	color: #010102;
+}
+.linkedin {
+	background-color: #2B3346;
+	color: #010102;
+}
+.codepen {
+	background-color: #323C50;
+	color: #010102;
+}
+.github {
+	background-color: #2B3346;
+	color: #010102;
+}
+.pink {
+	color: #DB5F74;
+}
+tr {
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+.pink, .not-pink {
+	padding-left: 1rem;
+}
+.flex {
+	display: flex;
+
+}
+.items {
+	width: 30%;
+	margin : 1.5%;
+	text-align: center;
+}
+.items h5 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding-bottom: 2rem;
+	color: white;
+	padding-top: 3rem;
+}
+.items p {
+	font-size: 1rem;
+	color: white;
+	line-height: 1.6;
+}
+.location {
+	background-color: #2C3E50;
+	padding-bottom: 3rem;
+}
+.social i {
+	color: white;
+	padding: 0.5rem;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.social {
+	display: flex;
+	justify-content: space-around;
+}
+.items a {
+	text-decoration: none;
+	color: #53AC93;
+}
+.footer {
+	background-color: #19242E;
+	padding: 2rem 0;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .logo {
+    position: relative;
+    z-index: 99;
+  }
+ 
+
+
+  .two-para {
+  	width: 100%;
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+  .flex-100 {
+    flex: 0 1 100%;
+  }
+ .flex {
+ 	display: flex;
+ 	width: 100%;
+ 	flex-wrap: wrap;
+ } 
+  
+ }
